@@ -1,5 +1,18 @@
-[*.{js,jsx,ts,tsx,vue}]
+# шаг 2. настройка форматирования файлов проекта(2 пробела). 
+# необходимо чтобы был установлен эдитор конфиг как дополнение VS-code(экстеншен)
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*]
+charset = utf-8
+
+[*]
 indent_style = space
 indent_size = 2
-trim_trailing_whitespace = true
-insert_final_newline = true
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
